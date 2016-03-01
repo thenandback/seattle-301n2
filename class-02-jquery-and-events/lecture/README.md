@@ -1,4 +1,10 @@
-Yay, events with jQuery!
+# Daily Plan
+1. Code Review
+2. Q&A - How are things going?
+3. jQuery Events & Effects
+  - Recap vanilla JS Events
+4. 
+
 
 # Class videos
 - [Part 1/4]
