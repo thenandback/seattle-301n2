@@ -20,6 +20,8 @@ Article.prototype.toHtml = function() {
             // publication date.
 
             $newArticle.find('h1').html(this.title);
+            $newArticle.find('#citation').prepend('By');
+            $newArticle.find('time').before('published');
             $newArticle.find('address a').html(this.author);
             $newArticle.find('section.article-body').html(this.body);
             $newArticle.find('address a').attr('href', this.authorUrl);
