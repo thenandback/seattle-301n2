@@ -2,6 +2,7 @@
 
 .site-header {
   padding: .1em;
+  background-color: #ffff99;
 }
 
 .main-nav {
@@ -15,6 +16,7 @@
   font-size: 1.5em;
   padding: .5em .2em;
   border-bottom: 1px solid #ccc;
+  list-style-type: none;
 }
 
 /* TODO: Style the filters so they look good on small screens:
@@ -25,7 +27,7 @@
 }
 
 #filters select {
-
+  width:100%;
 }
 
 .template {

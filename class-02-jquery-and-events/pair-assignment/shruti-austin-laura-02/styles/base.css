@@ -5,6 +5,7 @@ body {
   line-height: 1.5;
   font-size: 100%;
   color: #313131;
+  background-color: yellow;
 }
 
 hr {
@@ -26,11 +27,15 @@ address {
 =======================================*/
 
 a, a:link, a:active {
-  color: #777;
+  text-decoration: none;
+  color: lightblue;
 }
 
 a:hover, a:focus {
+  background-color: green;
+  color:white;
 }
 
 a:visited {
+  color: #777;
 }
