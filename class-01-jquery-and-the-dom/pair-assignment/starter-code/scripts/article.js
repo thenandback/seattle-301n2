@@ -17,7 +17,7 @@ Article.prototype.toHtml = function() {
             // DONE: Use jQuery to fill in the template with properties
             // from this particular Article instance. We need to fill in:
             // the author name and url, the article title and body, and the
-            // publication date.
+            // publication date. Updated.
 
             $newArticle.find('h1').text(this.title);
             $newArticle.find('#citation').prepend('By');
